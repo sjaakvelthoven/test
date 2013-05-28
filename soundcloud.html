@@ -11,11 +11,11 @@
          alert('Hello, ' + me.username); 
        });
      });
-     SC.oEmbed("http://soundcloud.com/forss/sets/soulhack", {color: "ff0066"},  document.getElementById("#player"));
-     $(document).ready(function() {
-       SC.get("/tracks/293",function(track){
+     SC.get("/tracks/293",function(track){
          $("#player").html(track.title);
-       });
+     });
+     $(document).ready(function() {
+       SC.oEmbed("http://soundcloud.com/forss/sets/soulhack", {color: "ff0066"},  document.getElementById("#player"));
      });
     </script>
   </head>
