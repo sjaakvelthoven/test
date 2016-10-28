@@ -1,4 +1,4 @@
 test
 ====
 
-This reposetory is for testing shit
+This reposetory is for testing Things
